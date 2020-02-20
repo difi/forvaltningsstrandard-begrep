@@ -6,10 +6,8 @@
 Relasjoner brukes for å vise relevante sammenhenger mellom begreper. I
 standarden bruker vi tre ulike typer begrepsrelasjoner: generiske,
 partitive og assosiative, de samme som i
-__Termlosen__footnote:[http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf#]].
-Se
-_https://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#]_
-for forklaring på disse relasjonstypene.
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/termlosen[Termlosen].
+Se https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/termlosen[[.underline]#Termlosen#] for forklaring på disse relasjonstypene.
 
 Standarden sier at den assosiative begrepsrelasjonen skal presiseres i
 en tekst, og man kan oppgi inndelingskriterium for en generisk eller
