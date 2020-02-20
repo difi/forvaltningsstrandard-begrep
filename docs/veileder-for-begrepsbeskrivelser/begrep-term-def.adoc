@@ -22,9 +22,11 @@ merkelappen», man fester til begrepet.
 
 
 
-.Forholdet mellom begrep, term, definisjon og referent (fra http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#], omgrep er nynorsk for _begrep_ på bokmål)
+.Forholdet mellom begrep, term, definisjon og referent (fra http://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[Termlosen], omgrep er nynorsk for begrep på bokmål)  
 [caption="Figur 1: "]
-image::https://github.com/difi/data-docs/blob/master/veileder-for-begrepsbeskrivelser/begrep.png?raw=true[]
+image::https://github.com/difi/forvaltningsstandard-begrep/blob/master/docs/veileder-for-begrepsbeskrivelser/begrep.png?raw=true[]
+
+  
 
 Når vi omtaler et begrep, benytter vi oss av termer (se <<term, forklaring på term>>). I noen tilfeller benytter vi oss av flere ulike termer for
 samme begrep. De er synonymer. Termer fra ulike språk kan også vise til
