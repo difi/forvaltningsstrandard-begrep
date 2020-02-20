@@ -36,7 +36,7 @@ utskiftingsprinsippet. Det innebærer at en term kan skiftes ut med
 definisjonen i en løpende tekst, med mindre justeringer. For å teste
 dette prinsippet kan man bytte ut termen og sette inn definisjonen.
 
-https://www.sprakradet.no/globalassets/vi-og-vart/publikasjoner/termlosen.pdf[[.underline]#Termlosen#]
+https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/termlosen[[.underline]#Termlosen#]
 gir veiledning i skriving av definisjoner, bl.a. hvordan man bør tegne
 begrepssystem for å finne atskillende kjennetegn.
 
