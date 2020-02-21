@@ -7,7 +7,7 @@ Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivels
 * dokumentere begrepets definisjon og eventuelle alternative formuleringer av samme definisjon
 * beskrive eventuelle relasjoner begrepet måtte ha til andre begreper
 * beskrive et begrep på flere språk
-* knytte begrepet til en gruppering av begreper (begrepssamling, se <<kapittel 5>>)
+* knytte begrepet til en gruppering av begreper (begrepssamling, se <<kapittel 5,Krav til innhold i beskrivelse av en begrepssamling>>)
 
 I normativt <<vedlegg A>> til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
 
@@ -23,7 +23,7 @@ Når et begrep beskrives, skal følgende informasjon alltid tas med:
 * *Definisjon*: En begrepsbeskrivelse skal alltid inneholde minst én <<definisjon>>, men maksimalt én per språk/målform.
 ** Språk/målform som definisjonen er skrevet i, skal alltid oppgis.
 * *Identifikator*: En begrepsbeskrivelse skal alltid inneholde en unik og varig identifikator til det aktuelle begrepet.
-Ansvarlig virksomhet: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
+* *Ansvarlig virksomhet*: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
 
 
 .Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nb)” markerer at teksten er skrevet på bokmål.
@@ -41,7 +41,7 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 
 * Tillatt term: en eller flere <<tillatte termer>>.
 ** Når en tar med en tillatt term, skal språk/målform termen er skrevet i, oppgis.
-* Frarådet term: en eller flere<<frarådede termer>>.
+* Frarådet term: en eller flere <<frarådde termer>>.
 ** Når en tar med en frarådet term, skal språk/målform termen er skrevet i, oppgis.
 * Datastrukturterm: en eller flere termer som brukes i en datastruktur eller lignende (f.eks. navn for en klasse eller attributt i et UML-diagram, tagnavn i en XML-fil osv.)
 * Alternativ formulering: en eller flere <<alternative formuleringer>> av definisjonen.
@@ -75,7 +75,7 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 * Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
 
-.Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for norsk nynorsk).
+.Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for nynorsk).
 |===
 
 |*Anbefalt term*|husdyr (nn)
