@@ -24,7 +24,7 @@ merkelappen», man fester til begrepet.
 
 .Forholdet mellom begrep, term, definisjon og referent (fra https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/termlosen[Termlosen], omgrep er nynorsk for begrep på bokmål)  
 [caption="Figur 1: "]
-image::https://github.com/difi/forvaltningsstandard-begrep/blob/master/docs/veileder-for-begrepsbeskrivelser/begrep.png[]
+image::images/begrep.png[]
 
   
 
