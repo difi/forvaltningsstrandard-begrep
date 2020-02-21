@@ -49,6 +49,7 @@ Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 |kontaktpunkt (kontaktpunkt)|0..1|<<URI, Vcard:Kind>>|for å oppgi kontaktpunkt i den ansvarlige virksomheten
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsbeskrivelse
 |===
+
 [[anbefaltTermA, Anbefalt term]]
 === A.3. Klasse Anbefalt term (AnbefaltTerm)
 
@@ -57,6 +58,7 @@ Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 *_Assosierte klasser_*: +
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Term>>’
+
 [[TillattTermA, Tillatt term]]
 === A.4. Klasse Tillatt term (TillattTerm)
 
@@ -71,6 +73,7 @@ Er spesialisering av ‘<<Term>>’
 
 |målgruppe (målgruppe)|0..1|Kodet verdi, se <<Kodeliste Målgruppe (Målgruppe), kodelisten Målgruppe>>|for å oppgi målgruppen som en tillatt term er opprettet/ment for
 |===
+
 [[FrarådetTermA, Frarådet term]]
 === A.5. Klasse Frarådet term (FrarådetTerm)
 
@@ -101,7 +104,7 @@ Er generalisering av konkrete klasser ‘<<Anbefalt term>>’, ‘<<Tillatt term
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|navn (navn)|1|<<Tekst med språkkode>>|for å oppgi termehttps://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[https://docs.google.com/document/d/1oLk57PEZ4pyG5MqN2zBjeeHE4mEEx3JusAoA0Jg-wIk/edit#heading=h.ohsdkwb99ftr[n]] til et begrep
+|navn (navn)|1|<<Tekst med språkkode>>|for å oppgi termen til et begrep
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi når en term er oppdatert sist
 |===
 
@@ -140,9 +143,10 @@ Er generalisering av konkrete klasser ‘<<Definisjon>>’, ’<<Alternativ form
 |merknad (merknad)|0..*|<<Tekst med språkkode>>|for å oppgi merknad(er) til en definisjon eller en alternativ formulering
 |eksempel|0..1|<<Tekst med språkkode>>|for å oppgi eksempel/eksempler til et begrep
 |målgruppe (målgruppe)|0..1|Kodet verdi, se <<Kodeliste Målgruppe (Målgruppe), kodelisten Målgruppe>>|for å oppgi målgruppe som definisjon eller alternativ formulering er laget for
-|omfang|0..1<<URI, URI og/eller tekst>>|for å oppgi omfang til et gitt begrep
+|omfang|0..1|<<URITekst, URI og/eller tekst>>|for å oppgi omfang til et gitt begrep
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av definisjonen eller den alternative formuleringen av definisjonen
 |===
+
 [[AssosiativRelasjonA, Assosiativ relasjon]]
 === A.11. Klasse Assosiativ relasjon (AssosiativRelasjon)
 
@@ -159,6 +163,7 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 |beskrivelse (beskrivelse)|1..*|<<Tekst med språkkode>>|for å beskrive den aktuelle assosiative relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
+
 [[GeneriskRelasjonA, Generisk relasjon]]
 === A.12. Klasse Generisk relasjon (GeneriskRelasjon)
 
@@ -176,6 +181,7 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 |inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle generiske relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
+
 [[PartitivRelasjonA, Partitiv relasjon]]
 === A.13. Klasse Partitiv relasjon (PartitivRelasjon)
 
@@ -193,6 +199,7 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 
 |inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle partitive relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
+
 [[begrepsrelasjonA, Begrepsrelasjon]]
 === A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)
 
@@ -208,6 +215,7 @@ Er generalisering av konkrete klasser <<Assosiativ relasjon>>, <<Generisk relasj
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsrelasjon
 |===
 
+[[begrepssamlingA, Begrepssamling]]
 === A.15. Klasse Begrepssamling (Begrepssamling)
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepssamling’
@@ -225,6 +233,7 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |beskrivelse (beskrivelse)|0..1|<<URI, Tekst>>|for å oppgi informasjon om en gitt begrepssamling
 |kontaktpunkt (kontaktpunkt)|0..1|<<URI, Vcard:Kind>>|for å oppgi kontaktpunkt i den ansvarlige virksomheten
 |===
+
 [[gyldighetsperiodeA, Gyldighetsperiode]]
 === A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)
 
@@ -237,6 +246,7 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |dato gyldig fra og med (gyldigFraOgMed)|0..1|<<URI, Dato>>|for å oppgi datoen fra og med hvilken en gyldighetsperiode starter
 |dato gyldig til og med (gyldigTilOgMed)|0..1|<<URI, Dato>>|for å oppgi datoen til og med hvilken en gyldighetsperiode varer
 |===
+
 [[kildebeskrivelseA, Kildebeskrivelse]]
 === A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)
 
@@ -246,9 +256,10 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |===
 |*Attributt*|*Krav*|*Type*|*Formål*
 
-|kilde (kilde)|0..*|<<URI, URI og/eller tekst>>|for å oppgi kilde(r) til en definisjon eller en alternativ formulering
+|kilde (kilde)|0..*|<<URITekst, URI og/eller tekst>>|for å oppgi kilde(r) til en definisjon eller en alternativ formulering
 |forhold til kilde (forholdTilKilde)|0..1|Kodet verdi, se <<Kodeliste Forhold til kilde (ForholdTilKilde), kodelisten Forhold til kilde>>|for å oppgi sammenheng mellom kilden(e) og definisjonsteksten eller den alternative formuleringen
 |===
+
 [[datatypeTekstMedSpråkkode, Tekst med språkkode]]
 === A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)
 
@@ -262,9 +273,10 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |språk/målform (språkMålform)|1|Kodet verdi, se <<Kodelisten Språkkode>>|for å oppgi språk/målform den aktuelle teksten er skrevet i
 |===
 
+[[datatypeURITekst, URITekst]]
 === A.19. Datatype URI og/eller tekst (URITekst)
 
-*_Formål_*: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” hhv. “kilde” i klasse <<Betydningsbeskrivelse>>
+*_Formål_*: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” i klasse <<Betydningsbeskrivelse>> og attributt "kilde" i datatype <<Kildebeskrivelse>>
 
 *_Attributter:_*
 |===
@@ -273,6 +285,7 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |URI (URI)|0..1|<<URI>>|for å oppgi URI til spesifikasjon/definisjon av et omfang, hhv. en gitt kilde
 |tekst (tekst)|0..1|<<URI, Tekst>>|for å oppgi informasjon om et gitt omfang, hhv. en gitt kilde.
 |===
+
 [[kodelisteForholdTilKilde, Kodeliste Forhold til kilde (ForholdTilKilde)]]
 === A.20. Kodeliste Forhold til kilde (ForholdTilKilde)
 
@@ -281,7 +294,7 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 Kodelisten inneholder følgende lovlige verdier:
 
 * sitat fra kilde (sitatFraKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ er ordrett sitat fra en gitt kilde
-* basert på kilde (basertPåKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er ordrett sitat fra, men basert på, en gitt kilde
+* basert på kilde (basertPåKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er ordrett sitat fra, men basert på, en eller flere gitte kilder
 * egendefinert (egendefinert): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er hentet fra eller basert på noen kilde, men er egendefinert eksempelvis etablert gjennom et prosjekt.
 
 [[kodelisteMålgruppe, Kodeliste Målgruppe (Målgruppe)]]
