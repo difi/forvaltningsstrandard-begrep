@@ -5,7 +5,7 @@
 
 Denne veilederen skal bidra til å gjøre det lettere å forstå og bruke
 https://doc.difi.no/data/forvaltningsstandard-begrepsbeskrivelser/[Forvaltningsstandard
-for begrepsbeskrivelser versjon 2.0.]
+for begrepsbeskrivelser.]
 
 === 1.2. Omfang og avgrensning
 
