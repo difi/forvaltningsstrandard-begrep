@@ -1,7 +1,7 @@
 include::../shared/translation.adoc[]
 
-= Forvaltningsstandard for beskrivelse av begreper - Versjon 2.0.1
-:description: Forvaltningsstandard for beskrivelse av begreper versjon 2
+= Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.1
+:description: Forvaltningsstandard for begrepsbeskrivelser versjon 2
 :doctype: book
 :docinfo:
 :icons: font
