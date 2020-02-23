@@ -22,7 +22,7 @@ include::../shared/download.adoc[]
 
 // Innhold her.
 
-Publisert: 2020-02-21
+Publisert: 2020-02-21 
 
 include::kap1-2.adoc[]
 include::kap3-definisjoner.adoc[]
