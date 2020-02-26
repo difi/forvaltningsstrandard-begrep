@@ -17,7 +17,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[term, term]]
 === Term
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*term* (nb); *term* (nn); *term* (en)
 |Frarådet term |begrep (nb); omgrep (nn); concept (en); konsept (nb); konsept (nn)
@@ -28,7 +28,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[AnbefaltTerm, anbefalt term]]
 === Anbefalt term
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*anbefalt term* (nb); *tilrådd term* (nn); *preferred term* (en)
 |Frarådet term |(ingen)
@@ -39,7 +39,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[TillattTerm, tillatte termer]]
 === Tillatt term
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*tillatt term* (nb); *tillaten term* (nn); *admitted term* (en)
 |Frarådet term |(ingen)
@@ -50,7 +50,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[FrarådetTerm, frarådde termer]]
 === Frarådet term
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*frarådet term* (nb); *frårådd term* (nn); *deprecated term* (en)
 |Frarådet term |(ingen)
@@ -61,7 +61,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[begrep, begrep]]
 === Begrep
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*begrep* (nb); *omgrep* (nn); *concept* (en)
 |Frarådet term |term (nb); term (nn); term (en); konsept (nb); konsept (nn)
@@ -72,7 +72,7 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[definisjon, definisjon]]
 === Definisjon
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*definisjon* (nb); *definisjon* (nn); *definition* (en)
 |Frarådet term |(ingen)
@@ -83,12 +83,12 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 
 [[AlternativFormulering, alternative formuleringer]]
 === Alternativ formulering
-[cols="30s,70"]
+[cols="20s,80"]
 |===
 |Anbefalt term |*alternativ formulering* (nb); *alternativ formulering* (nn)
 |Frarådet term |(ingen)
 |Definisjon |omskriving av et <<begrep>>s <<definisjon>>, uten at meningen endres (nb)
-|Kilde:: (ingen)
+|Kilde |(ingen)
 |Merknad |En alternativ formulering beskriver begrepet på en annen måte enn definisjonen. Den alternative formuleringen kan være tilpasset en bestemt målgruppe og kan dermed uttrykkes enklere eller med høyere presisjon enn definisjonen, uten at meningsinnholdet endres. (nb)
 |===
 
