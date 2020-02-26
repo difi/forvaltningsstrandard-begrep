@@ -28,7 +28,7 @@ Når et begrep beskrives, skal følgende informasjon alltid tas med:
 
 .Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nb)” markerer at teksten er skrevet på bokmål.
 
-[cols="1,2"]
+[cols="20,80"]
 |===
 |*Anbefalt term*|heltidssysselsatt (nb)
 |*Definisjon*|person som har en avtalt ukentlig arbeidstid på 37 timer og mer, samt personer med annen avtalt arbeidstid som oppgir at dette utgjør heltid. (nb)
@@ -77,7 +77,7 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 
 
 .Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for nynorsk).
-[cols="1,2"]
+[cols="20,80"]
 |===
 |*Anbefalt term*|husdyr (nn)
 |*Definisjon*|dyr av ulike slag (pattedyr, fuglar, bier) som blir halde for nytteformål, til dømes for produksjon av produkt som mjølk, kjøt og ull, for al eller for trekkraft (nn)
