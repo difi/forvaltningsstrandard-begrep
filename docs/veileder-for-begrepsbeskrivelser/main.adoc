@@ -20,7 +20,7 @@ include::../shared/translation.adoc[]
 
 // Innhold her.
 
-image::../shared/DIGITALISERINGSDIREKTORATET.png[width=50%, pdfwidth=30vw]
+image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
 Publisert: 15.03.2019
 
