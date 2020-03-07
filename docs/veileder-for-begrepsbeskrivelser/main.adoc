@@ -16,13 +16,16 @@ include::../shared/translation.adoc[]
 
 //{description}
 
-include::../shared/download.adoc[]
-
 // :leveloffset: +1
 
 // Innhold her.
 
+image::../shared/DIGITALISERINGSDIREKTORATET.png[width=50%, pdfwidth=30vw]
+
 Publisert: 15.03.2019
+
+include::../shared/download.adoc[]
+
 
 include::innledning.adoc[]
 include::eksempler.adoc[]
