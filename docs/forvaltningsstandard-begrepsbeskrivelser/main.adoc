@@ -9,7 +9,7 @@ include::../shared/translation.adoc[]
 :toclevels: 2
 :sectanchors:
 :title-logo-image: image:../shared/DIGITALISERINGSDIREKTORATET.png[pdfwidth=30vw]
-:table-stripes: odd
+:table-stripes: even
 
 //:sectnums:
 
@@ -31,7 +31,6 @@ include::kap1-2.adoc[]
 include::kap3-definisjoner.adoc[]
 include::kap4-krav-begrep.adoc[]
 include::kap5-krav-samling.adoc[]
-// include::spesifikasjon.adoc[]
 include::vedlegg-a.adoc[]
 include::vedlegg-b.adoc[]
 
