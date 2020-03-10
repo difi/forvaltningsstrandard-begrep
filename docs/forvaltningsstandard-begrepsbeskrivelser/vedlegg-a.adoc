@@ -40,7 +40,7 @@ Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 *_Attributter_*:
 [cols="3,1,3,6"]
 |===
-|*Attributt*|*Krav*|*Type*|*Formål*
+|**Attributt**|**Krav**|**Type**|**Formål**
 
 |identifikator (identifikator)|1..*|<<URI>>|for å oppgi identifikator(er) til et begrep
 |ansvarlig virksomhet (ansvarligVirksomhet)|1|<<URI, Organisasjonsnummer>>|for å oppgi hvilken virksomhet som har registrert begrepsbeskrivelsen eller registeret den forvaltes i
