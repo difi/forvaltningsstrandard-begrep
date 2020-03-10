@@ -9,6 +9,7 @@ include::../shared/translation.adoc[]
 :toclevels: 2
 :sectanchors:
 :title-logo-image: image:../shared/DIGITALISERINGSDIREKTORATET.png[pdfwidth=30vw]
+:table-stripes: odd
 
 //:sectnums:
 
