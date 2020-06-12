@@ -1,5 +1,3 @@
-
-
 == Definisjon av de mest sentrale begrepene i denne standarden
 
 Dette kapitlet inneholder definisjoner av de mest sentrale begrepene i standarden. Bortsett fra begrepet ‘alternativ formulering’ som det ikke finnes noen eksisterende internasjonale definisjoner av, er definisjonene av de andre begrepene hentet fra ISO-standarder via http://www.standard.no/termbasen/[termbasen SNORRE] hos Standard Norge.
@@ -91,4 +89,3 @@ Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten �
 |Kilde |(ingen)
 |Merknad |En alternativ formulering beskriver begrepet på en annen måte enn definisjonen. Den alternative formuleringen kan være tilpasset en bestemt målgruppe og kan dermed uttrykkes enklere eller med høyere presisjon enn definisjonen, uten at meningsinnholdet endres. (nb)
 |===
-
