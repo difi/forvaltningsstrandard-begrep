@@ -1,4 +1,4 @@
-include::../shared/translation.adoc[]
+include::locale/attribute.adoc[]
 
 = Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.1
 :description: Forvaltningsstandard for begrepsbeskrivelser versjon 2
@@ -8,7 +8,7 @@ include::../shared/translation.adoc[]
 :toc: left
 :toclevels: 2
 :sectanchors:
-:title-logo-image: image:../shared/DIGITALISERINGSDIREKTORATET.png[pdfwidth=30vw]
+:title-logo-image: image:images/DIGITALISERINGSDIREKTORATET.png[pdfwidth=30vw]
 :table-stripes: even
 
 //:sectnums:
@@ -19,9 +19,9 @@ include::../shared/translation.adoc[]
 
 image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
-Publisert: 2020-02-21 
+*Publisert*: 2020-02-21
 
-include::../shared/download.adoc[]
+include::shared/download.adoc[]
 
 // :leveloffset: +1
 
