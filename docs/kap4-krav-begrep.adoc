@@ -1,4 +1,3 @@
-
 == Krav til innhold i beskrivelse av et begrep
 
 Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivelse skal være i samsvar med standarden. Noe av informasjonen er obligatorisk, resten er valgfri. Blant den valgfrie informasjonen kan en velge å inkludere de delene en finner hensiktsmessig. Når den valgfrie informasjonen inkluderes, skal den følge standarden. Overordnet kan man si at standarden gir mulighet til å:
