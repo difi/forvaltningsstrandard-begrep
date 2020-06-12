@@ -10,11 +10,11 @@ link:files/StandardForBegrepsbeskrivelse.xsd[xsd]
 
 Det anbefales å bruke standardiserte formater til å representere enkelttypene som er brukt i UML-modellen, i intern lagring og maskinell tilgjengeliggjøring eksternt:
 
-* *Dato*: NS-ISO 8601 brukes for intern lagring og maskinell tilgjengeliggjøring eksternt. For presentasjon i brukergrensesnitt se råd fra Språkrådet http://www.sprakradet.no/sprakhjelp/Skriveregler/Dato/#dato[http://www.sprakradet.no/sprakhjelp/Skriveregler/Dato/#dato].
-* *URI*: Se kravene i bruksområdet “Pekere til offentlige ressurser på nett” i _Referansekatalogen_, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/pekere-til-offentlige-ressurser-pa-nett].
-* *Organisasjonsnummer*: Se spesifikasjon fra Brønnøysundregistrene, https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/[https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/].
-* *VCard:Kind*: Se spesifikasjon fra W3C, _vCard Ontology - for describing People and Organizations_, https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819[https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819].
-* *Tekst*: Se kravene i bruksområdet “Publisering av tekstdokumenter” i_ Referansekatalogen_, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter].
+* *Dato*: NS-ISO 8601 brukes for intern lagring og maskinell tilgjengeliggjøring eksternt. For presentasjon i brukergrensesnitt se http://www.sprakradet.no/sprakhjelp/Skriveregler/Dato/#dato[råd fra Språkrådet].
+* *URI*: Se kravene i https://www.digdir.no/digitale-felleslosninger/pekere-til-offentlige-ressurser-pa-nett/1492[bruksområdet “Pekere til offentlige ressurser på nett”] i _Referansekatalogen_.
+* *Organisasjonsnummer*: Se https://www.brreg.no/om-oss/oppgavene-vare/alle-registrene-vare/om-enhetsregisteret/organisasjonsnummeret/[spesifikasjon fra Brønnøysundregistrene].
+* *VCard:Kind*: Se spesifikasjon fra W3C, https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819[_vCard Ontology - for describing People and Organizations_].
+* *Tekst*: Se kravene i https://www.digdir.no/digitale-felleslosninger/publisering-av-tekstdokumenter/1494[bruksområdet “Publisering av tekstdokumenter”] i _Referansekatalogen_.
 
 
 === A.2. Klasse Begrep (Begrep) [[begrepA, Begrep]]
