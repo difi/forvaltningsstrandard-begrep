@@ -1,13 +1,12 @@
-[[vedlegga, vedlegg A]]
-== Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger
+== Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger [[vedlegga, vedlegg A]]
 
 image::images/UML-v2.0.png[]
 Last ned modell:
 link:images/UML-v2.0.png[png] |
 link:files/StandardForBegrepsbeskrivelse.xsd[xsd]
 
-[[uriA, URI]]
-=== A.1. Krav til bruk av standardiserte datatyper
+
+=== A.1. Krav til bruk av standardiserte datatyper [[uriA, URI]]
 
 Det anbefales å bruke standardiserte formater til å representere enkelttypene som er brukt i UML-modellen, i intern lagring og maskinell tilgjengeliggjøring eksternt:
 
@@ -17,8 +16,8 @@ Det anbefales å bruke standardiserte formater til å representere enkelttypene 
 * *VCard:Kind*: Se spesifikasjon fra W3C, _vCard Ontology - for describing People and Organizations_, https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819[https://www.w3.org/TR/2014/NOTE-vcard-rdf-20140522/#d4e1819].
 * *Tekst*: Se kravene i bruksområdet “Publisering av tekstdokumenter” i_ Referansekatalogen_, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/publisering-av-tekstdokumenter].
 
-[[begrepA, Begrep]]
-=== A.2. Klasse Begrep (Begrep)
+
+=== A.2. Klasse Begrep (Begrep) [[begrepA, Begrep]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til et ‘begrep’
 
@@ -51,8 +50,8 @@ Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsbeskrivelse
 |===
 
-[[anbefaltTermA, Anbefalt term]]
-=== A.3. Klasse Anbefalt term (AnbefaltTerm)
+
+=== A.3. Klasse Anbefalt term (AnbefaltTerm) [[anbefaltTermA, Anbefalt term]]
 
 *_Formål_*: for å oppgi en ‘anbefalt term’ til et ‘begrep’
 
@@ -60,8 +59,8 @@ Inngår i 0..* ‘<<Begrepssamling>>’ ‘med referanse (by reference)’
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Term>>’
 
-[[TillattTermA, Tillatt term]]
-=== A.4. Klasse Tillatt term (TillattTerm)
+
+=== A.4. Klasse Tillatt term (TillattTerm) [[TillattTermA, Tillatt term]]
 
 *_Formål_*: for å oppgi en ‘tillatt term’ til et ‘begrep’
 
@@ -76,8 +75,8 @@ Er spesialisering av ‘<<Term>>’
 |målgruppe (målgruppe)|0..1|Kodet verdi, se <<Kodeliste Målgruppe (Målgruppe), kodelisten Målgruppe>>|for å oppgi målgruppen som en tillatt term er opprettet/ment for
 |===
 
-[[FrarådetTermA, Frarådet term]]
-=== A.5. Klasse Frarådet term (FrarådetTerm)
+
+=== A.5. Klasse Frarådet term (FrarådetTerm) [[FrarådetTermA, Frarådet term]]
 
 *_Formål_*: for å oppgi en ‘frarådet term’ til et ‘begrep’
 
@@ -85,8 +84,8 @@ Er spesialisering av ‘<<Term>>’
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Term>>’
 
-[[datastrukturtermA, Datastrukturterm]]
-=== A.6. Klasse Datastrukturterm (Datastrukturterm)
+
+=== A.6. Klasse Datastrukturterm (Datastrukturterm) [[datastrukturtermA, Datastrukturterm]]
 
 *_Formål_*: for å oppgi en ‘datastrukturterm’ til et ‘begrep’
 
@@ -94,8 +93,8 @@ Er spesialisering av ‘<<Term>>’
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Term>>’
 
-[[termA, Term]]
-=== A.7. Abstrakt klasse Term (Term)
+
+=== A.7. Abstrakt klasse Term (Term) [[termA, Term]]
 
 *_Formål_*: for å knytte sammen attributtene til en ‘term’
 
@@ -111,8 +110,8 @@ Er generalisering av konkrete klasser ‘<<Anbefalt term>>’, ‘<<Tillatt term
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi når en term er oppdatert sist
 |===
 
-[[definisjonA, Definisjon]]
-=== A.8. Klasse Definisjon (Definisjon)
+
+=== A.8. Klasse Definisjon (Definisjon) [[definisjonA, Definisjon]]
 
 *_Formål_*: for å oppgi ‘definisjon’ til et ‘begrep’
 
@@ -120,8 +119,8 @@ Er generalisering av konkrete klasser ‘<<Anbefalt term>>’, ‘<<Tillatt term
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Betydningsbeskrivelse>>’
 
-[[AlternativFormuleringA, Alternativ formulering]]
-=== A.9. Klasse Alternativ formulering (AlternativFormulering)
+
+=== A.9. Klasse Alternativ formulering (AlternativFormulering) [[AlternativFormuleringA, Alternativ formulering]]
 
 *_Formål_*: for å oppgi en ‘alternativ formulering’ av betydningen til et ‘begrep’
 
@@ -129,8 +128,8 @@ Er spesialisering av ‘<<Betydningsbeskrivelse>>’
 Er en del av ‘<<Begrep>>’ ‘med verdi (by value)’ +
 Er spesialisering av ‘<<Betydningsbeskrivelse>>’
 
-[[BetydningsbeskrivelseA, Betydningsbeskrivelse]]
-=== A.10. Abstrakt klasse Betydningsbeskrivelse (Betydningsbeskrivelse)
+
+=== A.10. Abstrakt klasse Betydningsbeskrivelse (Betydningsbeskrivelse) [[BetydningsbeskrivelseA, Betydningsbeskrivelse]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Betydningsbeskrivelse’
 
@@ -151,8 +150,8 @@ Er generalisering av konkrete klasser ‘<<Definisjon>>’, ’<<Alternativ form
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av definisjonen eller den alternative formuleringen av definisjonen
 |===
 
-[[AssosiativRelasjonA, Assosiativ relasjon]]
-=== A.11. Klasse Assosiativ relasjon (AssosiativRelasjon)
+
+=== A.11. Klasse Assosiativ relasjon (AssosiativRelasjon) [[AssosiativRelasjonA, Assosiativ relasjon]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Assosiativ relasjon’
 
@@ -169,8 +168,8 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 |beskrivelse (beskrivelse)|1..*|<<Tekst med språkkode>>|for å beskrive den aktuelle assosiative relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
 
-[[GeneriskRelasjonA, Generisk relasjon]]
-=== A.12. Klasse Generisk relasjon (GeneriskRelasjon)
+
+=== A.12. Klasse Generisk relasjon (GeneriskRelasjon) [[GeneriskRelasjonA, Generisk relasjon]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Generisk relasjon’
 
@@ -188,8 +187,8 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 |inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle generiske relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
 
-[[PartitivRelasjonA, Partitiv relasjon]]
-=== A.13. Klasse Partitiv relasjon (PartitivRelasjon)
+
+=== A.13. Klasse Partitiv relasjon (PartitivRelasjon) [[PartitivRelasjonA, Partitiv relasjon]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Partitiv relasjon’
 
@@ -207,8 +206,8 @@ Er spesialisering av ‘<<Begrepsrelasjon>>’
 |inndelingskriterium (inndelingskriterium)|0..*|<<Tekst med språkkode>>|for å beskrive inndelingskriteriet for den aktuelle partitive relasjonen (maksimalt én beskrivelse per språk/målform)
 |===
 
-[[begrepsrelasjonA, Begrepsrelasjon]]
-=== A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)
+
+=== A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon) [[begrepsrelasjonA, Begrepsrelasjon]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepsrelasjon’
 
@@ -223,8 +222,8 @@ Er generalisering av konkrete klasser <<Assosiativ relasjon>>, <<Generisk relasj
 |dato sist oppdatert (sistOppdatert)|0..1|<<URI, Dato>>|for å oppgi dato for siste oppdatering av en begrepsrelasjon
 |===
 
-[[begrepssamlingA, Begrepssamling]]
-=== A.15. Klasse Begrepssamling (Begrepssamling)
+
+=== A.15. Klasse Begrepssamling (Begrepssamling) [[begrepssamlingA, Begrepssamling]]
 
 *_Formål_*: for å knytte sammen attributter og relasjoner til en ‘Begrepssamling’
 
@@ -243,8 +242,8 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |kontaktpunkt (kontaktpunkt)|0..1|<<URI, Vcard:Kind>>|for å oppgi kontaktpunkt i den ansvarlige virksomheten
 |===
 
-[[gyldighetsperiodeA, Gyldighetsperiode]]
-=== A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)
+
+=== A.16. Datatype Gyldighetsperiode (Gyldighetsperiode) [[gyldighetsperiodeA, Gyldighetsperiode]]
 
 *_Formål_*: for å knytte sammen attributter til en ‘gyldighetsperiode’
 
@@ -257,8 +256,8 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |dato gyldig til og med (gyldigTilOgMed)|0..1|<<URI, Dato>>|for å oppgi datoen til og med hvilken en gyldighetsperiode varer
 |===
 
-[[kildebeskrivelseA, Kildebeskrivelse]]
-=== A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)
+
+=== A.17. Datatype Kildebeskrivelse (Kildebeskrivelse) [[kildebeskrivelseA, Kildebeskrivelse]]
 
 *_Formål_*: for å knytte sammen attributter til en ‘kildebeskrivelse’
 
@@ -271,8 +270,8 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |forhold til kilde (forholdTilKilde)|0..1|Kodet verdi, se <<Kodeliste Forhold til kilde (ForholdTilKilde), kodelisten Forhold til kilde>>|for å oppgi sammenheng mellom kilden(e) og definisjonsteksten eller den alternative formuleringen
 |===
 
-[[datatypeTekstMedSpråkkode, Tekst med språkkode]]
-=== A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)
+
+=== A.18. Datatype Tekst med språkkode (TekstMedSpråkkode) [[datatypeTekstMedSpråkkode, Tekst med språkkode]]
 
 *_Formål_*: for å knytte sammen attributter tekst og språkkode
 
@@ -285,8 +284,8 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |språk/målform (språkMålform)|1|Kodet verdi, se <<Kodelisten Språkkode>>|for å oppgi språk/målform den aktuelle teksten er skrevet i
 |===
 
-[[datatypeURITekst, URITekst]]
-=== A.19. Datatype URI og/eller tekst (URITekst)
+
+=== A.19. Datatype URI og/eller tekst (URITekst) [[datatypeURITekst, URITekst]]
 
 *_Formål_*: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” i klasse <<Betydningsbeskrivelse>> og attributt "kilde" i datatype <<Kildebeskrivelse>>
 
@@ -299,8 +298,8 @@ Har 1..* <<Begrep>> ‘med referanse (by reference)’
 |tekst (tekst)|0..1|<<URI, Tekst>>|for å oppgi informasjon om et gitt omfang, hhv. en gitt kilde.
 |===
 
-[[kodelisteForholdTilKilde, Kodeliste Forhold til kilde (ForholdTilKilde)]]
-=== A.20. Kodeliste Forhold til kilde (ForholdTilKilde)
+
+=== A.20. Kodeliste Forhold til kilde (ForholdTilKilde) [[kodelisteForholdTilKilde, Kodeliste Forhold til kilde (ForholdTilKilde)]]
 
 *_Formål_*: for å liste opp lovlige verdier til <<Kildebeskrivelse, attributt “Forhold til kilde” i datatype “Kildebeskrivelse”>>
 
@@ -310,8 +309,8 @@ Kodelisten inneholder følgende lovlige verdier:
 * basert på kilde (basertPåKilde): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er ordrett sitat fra, men basert på, en eller flere gitte kilder
 * egendefinert (egendefinert): brukes når ‘definisjon’ eller ‘alternativ formulering’ ikke er hentet fra eller basert på noen kilde, men er egendefinert eksempelvis etablert gjennom et prosjekt.
 
-[[kodelisteMålgruppe, Kodeliste Målgruppe (Målgruppe)]]
-=== A.21. Kodeliste Målgruppe (Målgruppe)
+
+=== A.21. Kodeliste Målgruppe (Målgruppe) [[kodelisteMålgruppe, Kodeliste Målgruppe (Målgruppe)]]
 
 *_Formål_*: for å liste opp lovlige verdier til <<Betydningsbeskrivelse, attributt “målgruppe” i klasse “Betydningsbeskrivelse”>> hhv. <<Tillatt term, attributt “målgruppe” i klasse “Tillatt term”>>.
 
@@ -320,8 +319,8 @@ Kodelisten inneholder følgende lovlige verdier:
 * allmennheten (allmennheten): brukes når det ikke forutsettes noe forkunnskap i det aktuelle fagområdet for begrepet
 * fagspesialist (fagspesialist): brukes når det forutsettes et visst kunnskapsnivå i det aktuelle fagområdet for begrepet
 
-[[kodelisteSpråkkode, Kodelisten Språkkode]]
-=== A.22. Kodeliste Språkkode (Språkkode)
+
+=== A.22. Kodeliste Språkkode (Språkkode) [[kodelisteSpråkkode, Kodelisten Språkkode]]
 
 *_Formål_*: for å liste opp lovlige verdier til <<Tekst med språkkode, attributt “språk/målform” i datatype “Tekst med språkkode”>>
 
