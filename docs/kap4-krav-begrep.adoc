@@ -10,7 +10,7 @@ Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivels
 
 I normativt <<vedlegg A>> til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
 
-Det er utarbeidet en informativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/begrepsanalyse-og-definisjonsarbeid[bruksområdet Begrepsanalyse og definisjonsarbeid] i _Referansekatalogen_.
+Det er utarbeidet en informativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under https://www.digdir.no/digitalisering-og-samordning/begrepsanalyse-og-definisjonsarbeid/1483[bruksområdet Begrepsanalyse og definisjonsarbeid] i _Referansekatalogen_.
 
 === Obligatorisk informasjon
 
