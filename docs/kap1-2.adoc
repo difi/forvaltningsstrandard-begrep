@@ -28,5 +28,5 @@ Denne versjonen av standarden fokuserer på informasjon som er nødvendig for å
 Følgende referanser er normative og danner grunnlag for denne standarden:
 
 * NS-ISO 704:2009 _Terminologiarbeid - Prinsipper og metoder_
-* NS-ISO 1087:2000 _Terminologiarbeid - Ordliste - Del 1: Teori og anvendelser_
+* NS-ISO 1087:2019 _Terminologiarbeid og terminologivitenskap — Ordliste_
 * _Termlosen_, som er en anbefalt forvaltningsstandard for begrepsanalyse og definisjonsarbeid
