@@ -1,7 +1,7 @@
 include::locale/attributes.adoc[]
 
-= Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.1
-:description: Forvaltningsstandard for begrepsbeskrivelser versjon 2
+= Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2
+:description: Forvaltningsstandard for begrepsbeskrivelser
 :doctype: book
 :docinfo:
 :icons: font
@@ -19,12 +19,17 @@ include::locale/attributes.adoc[]
 
 image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
-*Publisert*: 2020-02-21
+*Publisert*: 2020-03-15 +
+*Oppdatert*: 2020-07-01 +
+*Status*: Gjeldende
 
 include::shared/download.adoc[]
 
 NOTE: *Innmelding av feil og mangler:* +
 Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på https://github.com/Informasjonsforvaltning/forvaltningsstandard-begrepsbeskrivelser/issues[Github Issues]. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
+
+[TIP]
+Det er utarbeidet en https://data.norge.no/guide/veileder-begrepsbeskrivelser/[veileder for bruk av denne forvaltningsstandard].
 
 // :leveloffset: +1
 
