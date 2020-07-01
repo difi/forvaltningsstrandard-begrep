@@ -10,7 +10,7 @@ Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivels
 
 I normativt <<vedlegg A>> til dette dokumentet er kravene også beskrevet i form av en http://www.uml.org/[UML]-modell.
 
-Det er utarbeidet en informativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under https://www.digdir.no/digitalisering-og-samordning/begrepsanalyse-og-definisjonsarbeid/1483[bruksområdet Begrepsanalyse og definisjonsarbeid] i _Referansekatalogen_.
+Det er utarbeidet en ikke-normativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under https://www.digdir.no/digitalisering-og-samordning/begrepsanalyse-og-definisjonsarbeid/1483[bruksområdet Begrepsanalyse og definisjonsarbeid] i _Referansekatalogen_.
 
 === Obligatorisk informasjon
 
@@ -25,7 +25,7 @@ Når et begrep beskrives, skal følgende informasjon alltid tas med:
 * *Ansvarlig virksomhet*: En begrepsbeskrivelse skal alltid inneholde opplysninger om den ansvarlige virksomheten.
 
 
-.Et informativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nb)” markerer at teksten er skrevet på bokmål.
+.Et ikke-normativt eksempel på en beskrivelse av et begrep, ved å bruke kun obligatorisk informasjon, der “(nb)” markerer at teksten er skrevet på bokmål.
 
 [cols="30,70", stripes=odd]
 |===
@@ -75,7 +75,7 @@ I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbes
 * Kontaktpunkt: En kan oppgi kontaktpunkt i den ansvarlige virksomhet.
 
 
-.Et informativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for nynorsk).
+.Et ikke-normativt eksempel som illustrerer bruk av flere felter fra standarden, der den obligatoriske informasjonen er *uthevet* og språkkode oppgitt i parentes (“(nn)” for nynorsk).
 [cols="30,70", stripes=odd]
 |===
 |*Anbefalt term*|husdyr (nn)
