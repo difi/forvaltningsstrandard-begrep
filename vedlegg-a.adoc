@@ -324,7 +324,7 @@ Kodelisten inneholder følgende lovlige verdier:
 
 *_Formål_*: for å liste opp lovlige verdier til <<Tekst med språkkode, attributt “språk/målform” i datatype “Tekst med språkkode”>>
 
-Se “Bruk av språkkodar på offentlege nettsider” i Referansekatalogen, https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/bruk-av-sprakkodar-pa-offentlege-nettsider[https://www.difi.no/fagomrader-og-tjenester/digitalisering-og-samordning/standarder/referansekatalogen/bruk-av-sprakkodar-pa-offentlege-nettsider]
+Se “Bruk av språkkodar på offentlege nettsider” i Referansekatalogen, https://www.digdir.no/digitale-felleslosninger/bruk-av-sprakkodar-pa-offentlege-nettsider/1673[https://www.digdir.no/digitale-felleslosninger/bruk-av-sprakkodar-pa-offentlege-nettsider/1673]
 
 Eksempler (listen under er ikke uttømmende):
 
