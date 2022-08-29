@@ -19,6 +19,8 @@ include::locale/attributes.adoc[]
 
 image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
+WARNING: #Standarden er p.t. under revisjon#. Forslag til revidert versjon vil bli tilgjengelig som https://informasjonsforvaltning.github.io/skos-ap-no-begrep/[Redaktørens utkast]
+
 *Publisert*: 2019-03-15 (v.2.0) +
 *Oppdatert*: 2020-07-01 (v.2.0.2) +
 *Status*: Gjeldende
