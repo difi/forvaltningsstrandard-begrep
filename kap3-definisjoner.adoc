@@ -1,0 +1,91 @@
+== Definisjon av de mest sentrale begrepene i denne standarden
+
+Dette kapitlet inneholder definisjoner av de mest sentrale begrepene i standarden. Bortsett fra begrepet ‘alternativ formulering’ som det ikke finnes noen eksisterende internasjonale definisjoner av, er definisjonene av de andre begrepene hentet fra ISO-standarder via http://www.standard.no/termbasen/[termbasen SNORRE] hos Standard Norge, eller https://www.sprakradet.no/Sprakarbeid/Terminologi/nyttig-informasjon/Terminologiens-terminologi/[Terminologiens terminologi] hos Språkrådet.
+
+Definisjonene og termene i dette kapitlet er normative.
+
+Språk/målform er angitt i parentes. F.eks. betyr “term (nb)” at teksten “term” er på norsk bokmål. Følgende språkkoder er brukt:
+
+* nb: bokmål
+* nn: nynorsk
+* en: engelsk
+
+
+// hentet fra g-sheet
+
+[[term, term]]
+=== Term
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*term* (nb); *term* (nn); *term* (en)
+|Frarådet term |begrep (nb); omgrep (nn); concept (en); konsept (nb); konsept (nn)
+|Definisjon |betegnelse som representerer et allmennbegrep ved språklige midler (nb)
+|Kilde |Sitat fra http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=35329[NS-ISO 1087:2019 Terminologiarbeid og terminologivitenskap — Ordliste]
+|Merknad |En term er navnelappen til et begrep, altså det ordet eller den gruppen av ord vi bruker for å uttrykke et begrep. |Definisjonen viser til allmennbegrep, f.eks. organisasjon, severdighet og produkt, for å ekskludere egennavn og individualbegreper, f.eks. Røde kors, Eiffeltårnet og Solidox. (nb)
+|===
+
+[[AnbefaltTerm, anbefalt term]]
+=== Anbefalt term
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*anbefalt term* (nb); *tilrådd term* (nn); *preferred term* (en)
+|Frarådet term |(ingen)
+|Definisjon |<<term>> som blir sett på som den best egnede for et bestemt <<begrep>> (nb)
+|Kilde |Sitat fra https://www.sprakradet.no/Sprakarbeid/Terminologi/nyttig-informasjon/Terminologiens-terminologi/[Terminologiens terminologi]
+|Merknad |En anbefalt term er termen som bør brukes med mindre det foreligger spesielle grunner til å bruke en tillatt term. (nb)
+|===
+
+[[TillattTerm, tillatte termer]]
+=== Tillatt term
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*tillatt term* (nb); *tillaten term* (nn); *admitted term* (en)
+|Frarådet term |(ingen)
+|Definisjon |<<term>> som blir sett på som egnet for et bestemt <<begrep>>, og som blir brukt ved siden av en <<anbefalt term>> (nb)
+|Kilde |Sitat fra https://www.sprakradet.no/Sprakarbeid/Terminologi/nyttig-informasjon/Terminologiens-terminologi/[Terminologiens terminologi]
+|Merknad |En tillatt term kan brukes i stedet for den anbefalte termen hvis det foreligger spesielle grunner, f.eks. hvis målgruppen er allmennheten og ikke fagspesialister. (nb)
+|===
+
+[[FrarådetTerm, frarådde termer]]
+=== Frarådet term
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*frarådet term* (nb); *frårådd term* (nn); *deprecated term* (en)
+|Frarådet term |(ingen)
+|Definisjon |<<term>> som blir sett på som uegnet for et bestemt <<begrep>> (nb)
+|Kilde |Sitat fra https://www.sprakradet.no/Sprakarbeid/Terminologi/nyttig-informasjon/Terminologiens-terminologi/[Terminologiens terminologi]
+|Merknad |Når man refererer til et begrep bør man unngå å bruke en frarådet term (anbefalt term, ev. tillatt term, bør brukes). I beskrivelse av et begrep kan det derfor være hensiktsmessig å ta med termen(e) som er frarådet, når man vet at mange feilaktig bruker termen(e) om begrepet. (nb)
+|===
+
+[[begrep, begrep]]
+=== Begrep
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*begrep* (nb); *omgrep* (nn); *concept* (en)
+|Frarådet term |term (nb); term (nn); term (en); konsept (nb); konsept (nn)
+|Definisjon |kunnskapsenhet dannet av en unik kombinasjon av kjennetegn (nb)
+|Kilde |Sitat fra http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=36707[NS-ISO 1087:2019 Terminologiarbeid og terminologivitenskap — Ordliste]
+|Merknad |Et begrep er en mental forestilling om et fenomen. Begrepet blir kommunisert ved hjelp av en term og forklart ved hjelp av en definisjon. (nb)
+|===
+
+[[definisjon, definisjon]]
+=== Definisjon
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*definisjon* (nb); *definisjon* (nn); *definition* (en)
+|Frarådet term |(ingen)
+|Definisjon |representasjon av et <<begrep>> ved et uttrykk som beskriver det og atskiller det fra relaterte begreper (nb)
+|Kilde |Sitat fra http://www.standard.no/toppvalg/termbasen/Termpost/?TermPostId=36175[NS-ISO 1087:2019 Terminologiarbeid og terminologivitenskap — Ordliste]
+|Merknad |En definisjon er meningsinnholdet til et begrep. (nb)
+|===
+
+[[AlternativFormulering, alternative formuleringer]]
+=== Alternativ formulering
+[cols="20s,80", stripes=odd]
+|===
+|Anbefalt term |*alternativ formulering* (nb); *alternativ formulering* (nn)
+|Frarådet term |(ingen)
+|Definisjon |omskriving av et <<begrep>>s <<definisjon>>, uten at meningen endres (nb)
+|Kilde |egendefinert
+|Merknad |En alternativ formulering beskriver begrepet på en annen måte enn definisjonen. Den alternative formuleringen kan være tilpasset en bestemt målgruppe og kan dermed uttrykkes enklere eller med høyere presisjon enn definisjonen, uten at meningsinnholdet endres. (nb)
+|===

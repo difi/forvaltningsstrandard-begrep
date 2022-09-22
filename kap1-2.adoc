@@ -1,0 +1,32 @@
+== Forord
+
+https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480[_Referansekatalogen_] er en oversikt over obligatoriske og anbefalte IT-standarder i forvaltningen. Obligatoriske standarder skal følges av alle virksomheter. Anbefalte standarder skal følges hvis virksomhetene ikke har en god grunn til å la være å følge dem.
+
+_Referansekatalogen_ skal sikre at innbyggere og næringsliv får tilgang til offentlig informasjon og tjenester på en standardisert måte (uavhengig av brukerutstyr). Den skal også sikre god samhandling mellom offentlige virksomheter, hindre bindinger til bestemte leverandører og sikre god konkurranse i IT-markedet. Katalogen forvaltes av https://www.digdir.no/[Digitaliseringsdirektoratet].
+
+IT-ministeren satte i 2006 ned et bredt sammensatt Standardiseringsråd, som fra 2019 endret sitt navn til https://www.digdir.no/digitalisering-og-samordning/arkitektur-og-standardiseringsradet/1473[Arkitektur- og standardiseringsråd], med medlemmer fra kommunal og statlig sektor. Digitaliseringsdirektoratet får råd fra dette rådet om hvilke standarder som bør være anbefalte eller obligatoriske. Forslag til obligatoriske standarder blir først utredet av Digitaliseringsdirektoratet og deretter oversendt til Kommunal- og moderniseringsdepartementet etter høring. Revidert https://lovdata.no/dokument/SF/forskrift/2013-04-05-959[_Forskrift om IT-standarder i offentlig forvaltning_] med nye obligatoriske standarder legges så fram for Kongen i statsråd som vedtar forskriftsendringer. Digitaliseringsdirektoratet beslutter hva som skal være anbefalte standarder i _Referansekatalogen_, etter utredning og høring i henhold til Arkitektur- og standardiseringsrådets arbeidsmetodikk.
+
+Denne standarden er utarbeidet av en arbeidsgruppe ledet av Difi (nå Digitaliseringsdirektoratet), i henhold til Standardiseringsrådets arbeidsmetodikk.
+
+Standarden inngår i https://www.digdir.no/digitalisering-og-samordning/begrepsanalyse-og-definisjonsarbeid/1483[bruksområdet “Begrepsanalyse og definisjonsarbeid”] i _Referansekatalogen_. Denne versjonen skal erstatte den første versjonen fra mai 2012.
+
+Se <<vedlegg B>> for de viktigste endringene fra versjon 1 til denne versjonen (versjon 2) av standarden.
+
+
+== Formål, omfang og avgrensinger
+
+Det er et uttrykt ønske, både fra regjeringshold og fra offentlig sektor, at ulike deler av forvaltningen skal kunne gjenbruke hverandres informasjon (ofte data) i mye større grad enn i dag. Dette vil bl.a. spare både offentlig sektor og dens brukere for dobbeltarbeid knyttet til innsamling/avgiving av informasjon og vil hjelpe til å oppfylle “kun én gang”-prinsippet, dvs. samme informasjon (f.eks. sivilstand) skal bare samles inn ett sted i forvaltningen og så gjenbrukes av alle andre som har behov for og rettslig grunnlag til å bruke denne informasjonen.
+
+For å identifisere hvilken informasjon som er aktuell til deling og gjenbruk er det imidlertid nødvendig å vite hva de ulike etatene legger i begrepene som er knyttet til data. For f.eks. å vite om en kan gjenbruke Skatteetatens data for lønn, må en vite om Skatteetaten definerer lønn på samme måte som ens egen etat. Dette betyr at offentlig sektor må definere og tilgjengeliggjøre sine begreper. Denne standarden skal sikre at begrepene forvaltet av offentlig forvaltning, beskrives på en felles, strukturert måte.
+
+Standarden spesifiserer kun krav til innholdet i en begrepsbeskrivelse, ikke hvordan begrepsarbeidet generelt gjennomføres eller hvordan innholdet skal tilgjengeliggjøres elektronisk. Se ellers bruksområde “Begrepsanalyse og definisjonsarbeid” i https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480[_Referansekatalogen_] for andre aktuelle standarder og veiledere.
+
+Denne versjonen av standarden fokuserer på informasjon som er nødvendig for å støtte deling av begrepsbeskrivelser. Virksomhetsinterne behov blir derfor ikke prioritert i foreliggende versjon.
+
+== Normative referanser
+
+Følgende referanser er normative og danner grunnlag for denne standarden:
+
+* NS-ISO 704:2009 _Terminologiarbeid - Prinsipper og metoder_
+* NS-ISO 1087:2019 _Terminologiarbeid og terminologivitenskap — Ordliste_
+* _Termlosen_, som er en anbefalt forvaltningsstandard for begrepsanalyse og definisjonsarbeid
