@@ -41,7 +41,7 @@ jobs:
           files: |
             docs/index.html text/html nb
             docs/files/forvaltningsstandard-begrepsbeskrivelser.pdf application/pdf nb files/forvaltningsstandard-begrepsbeskrivelser.pdf
-            docs/files/StandardForBegrepsbeskrivelse.xsd application/octet-stream nb files/StandardForBegrepsbeskrivelse.xsd
+            docs/files/StandardForBegrepsbeskrivelse.xsd text/xml nb files/StandardForBegrepsbeskrivelse.xsd
             docs/images/digitaliseringsdirektoratet.png image/png nb images/digitaliseringsdirektoratet.png
             docs/images/UML-v2.0.jpg image/jpeg nb images/UML-v2.0.jpg
             docs/images/UML-v2.0.png image/png nb images/UML-v2.0.png
