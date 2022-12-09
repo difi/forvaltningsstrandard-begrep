@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <meta name="description" content="Forvaltningsstandard for begrepsbeskrivelser">
+<meta name="author" content="Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency">
 <title>Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -85,10 +86,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -441,6 +442,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <body class="book toc2 toc-left">
 <div id="header">
 <h1>Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2</h1>
+<div class="details">
+<span id="author" class="author">Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency</span><br>
+</div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
 <ul class="sectlevel1">
@@ -505,25 +509,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="images/digitaliseringsdirektoratet.png" alt="digitaliseringsdirektoratet" width="50%">
+<img src="images/Digdir.png" alt="Digdir" width="50%">
 </div>
-</div>
-<div class="admonitionblock warning">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-warning" title="Advarsel"></i>
-</td>
-<td class="content">
-<mark>Standarden er p.t. under revisjon</mark>. Forslag til revidert versjon vil bli tilgjengelig som <a href="https://informasjonsforvaltning.github.io/skos-ap-no-begrep/">Redaktørens utkast</a>
-</td>
-</tr>
-</table>
 </div>
 <div class="paragraph">
-<p><strong>Publisert</strong>: 2019-03-15 (v.2.0)<br>
-<strong>Oppdatert</strong>: 2020-07-01 (v.2.0.2)<br>
-<strong>Status</strong>: Gjeldende</p>
+<p><strong>Status</strong>: <mark>Fases ut</mark> og erstattes av <a href="https://data.norge.no/specification/skos-ap-no-begrep">Forvaltningsstandard for begrepsbeskrivelser (SKOS-AP-NO-Begrep)</a><br>
+<strong>Publisert</strong>: 2019-03-15 (v.2.0)<br>
+<strong>Oppdatert</strong>: 2020-07-01 (v.2.0.2), 2022-12-09 (Fases ut)<br></p>
 </div>
 <div class="admonitionblock tip">
 <table>
@@ -534,31 +526,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="content">
 Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrepsbeskrivelser.pdf">som PDF</a>.
 Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangler eller lenker som ikke fungerer, ber vi om at man benytter versjonen tilgjengelig på nett for de aktuelle delene.
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Merk"></i>
-</td>
-<td class="content">
-<strong>Innmelding av feil og mangler:</strong><br>
-Dersom du finner feil eller mangler i dokumentet, ber vi om at dette meldes inn på <a href="https://github.com/Informasjonsforvaltning/forvaltningsstandard-begrepsbeskrivelser/issues">Github Issues</a>. Dersom du ikke allerede har bruker på Github kan du opprette bruker gratis.
-</td>
-</tr>
-</table>
-</div>
-<div class="admonitionblock tip">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-tip" title="Tips"></i>
-</td>
-<td class="content">
-Det er utarbeidet en <a href="https://data.norge.no/guide/veileder-begrepsbeskrivelser/">veileder for bruk av denne forvaltningsstandard</a>.
 </td>
 </tr>
 </table>
@@ -2099,7 +2066,7 @@ ga('send', 'pageview');
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2022-09-22 08:19:26 UTC
+Sist oppdatert 2022-12-09 13:19:45 UTC
 </div>
 </div>
 </body>
