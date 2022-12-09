@@ -1,12 +1,10 @@
 # Forvaltningsstandard for begrepsbeskrivelser
 
-For revisjon av _Forvaltningsstandard for begrepsbeskrivelser_.
+For _Forvaltningsstandard for begrepsbeskrivelser_, https://data.norge.no/specification/forvaltningsstandard-begrepsbeskrivelser.
 
-Gjeldende versjon av standarden blir publisert til: https://data.norge.no/specification/forvaltningsstandard-begrepsbeskrivelser/.
+NB! Denne standarden skal fases ut. Den skal derfor ikke vedlikeholdes lenger. 
 
-Se også:
- - [veileder-begrepsbeskrivelser](https://github.com/Informasjonsforvaltning/veileder-begrepsbeskrivelser) for forvaltning av [_Veileder for bruk av Forvaltningsstandard for begrepsbeskrivelser_](https://data.norge.no/guide/veileder-begrepsbeskrivelser/).
- - [skos-ap-no-begrep](https://github.com/Informasjonsforvaltning/skos-ap-no-begrep) for forvaltning av ontologien skos-ap-no-begrep.
+Den er erstattet av https://github.com/Informasjonsforvaltning/skos-ap-no-begrep.
 
 
 \- _Digitaliseringsdirektoratet / Norwegian Digitalisation Agency (https://digdir.no)_
