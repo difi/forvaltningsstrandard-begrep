@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.23">
 <meta name="description" content="Forvaltningsstandard for begrepsbeskrivelser">
 <meta name="author" content="Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency">
 <title>Forvaltningsstandard for begrepsbeskrivelser - Versjon 2.0.2</title>
@@ -142,7 +142,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -164,6 +164,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -210,13 +211,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -332,7 +330,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -395,7 +393,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -532,7 +530,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="_forord"><a class="anchor" href="#_forord"></a>Forord</h2>
+<h2 id="_forord"><a class="link" href="#_forord">Forord</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="https://www.digdir.no/digitalisering-og-samordning/referansekatalogen-it-standarder/1480"><em>Referansekatalogen</em></a> er en oversikt over obligatoriske og anbefalte IT-standarder i forvaltningen. Obligatoriske standarder skal følges av alle virksomheter. Anbefalte standarder skal følges hvis virksomhetene ikke har en god grunn til å la være å følge dem.</p>
@@ -555,7 +553,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="_formål_omfang_og_avgrensinger"><a class="anchor" href="#_formål_omfang_og_avgrensinger"></a>Formål, omfang og avgrensinger</h2>
+<h2 id="_formål_omfang_og_avgrensinger"><a class="link" href="#_formål_omfang_og_avgrensinger">Formål, omfang og avgrensinger</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Det er et uttrykt ønske, både fra regjeringshold og fra offentlig sektor, at ulike deler av forvaltningen skal kunne gjenbruke hverandres informasjon (ofte data) i mye større grad enn i dag. Dette vil bl.a. spare både offentlig sektor og dens brukere for dobbeltarbeid knyttet til innsamling/avgiving av informasjon og vil hjelpe til å oppfylle “kun én gang”-prinsippet, dvs. samme informasjon (f.eks. sivilstand) skal bare samles inn ett sted i forvaltningen og så gjenbrukes av alle andre som har behov for og rettslig grunnlag til å bruke denne informasjonen.</p>
@@ -572,7 +570,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="_normative_referanser"><a class="anchor" href="#_normative_referanser"></a>Normative referanser</h2>
+<h2 id="_normative_referanser"><a class="link" href="#_normative_referanser">Normative referanser</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Følgende referanser er normative og danner grunnlag for denne standarden:</p>
@@ -593,7 +591,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="_definisjon_av_de_mest_sentrale_begrepene_i_denne_standarden"><a class="anchor" href="#_definisjon_av_de_mest_sentrale_begrepene_i_denne_standarden"></a>Definisjon av de mest sentrale begrepene i denne standarden</h2>
+<h2 id="_definisjon_av_de_mest_sentrale_begrepene_i_denne_standarden"><a class="link" href="#_definisjon_av_de_mest_sentrale_begrepene_i_denne_standarden">Definisjon av de mest sentrale begrepene i denne standarden</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Dette kapitlet inneholder definisjoner av de mest sentrale begrepene i standarden. Bortsett fra begrepet ‘alternativ formulering’ som det ikke finnes noen eksisterende internasjonale definisjoner av, er definisjonene av de andre begrepene hentet fra ISO-standarder via <a href="http://www.standard.no/termbasen/">termbasen SNORRE</a> hos Standard Norge, eller <a href="https://www.sprakradet.no/Sprakarbeid/Terminologi/nyttig-informasjon/Terminologiens-terminologi/">Terminologiens terminologi</a> hos Språkrådet.</p>
@@ -618,7 +616,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </ul>
 </div>
 <div class="sect2">
-<h3 id="term"><a class="anchor" href="#term"></a>Term</h3>
+<h3 id="term"><a class="link" href="#term">Term</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -649,7 +647,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="AnbefaltTerm"><a class="anchor" href="#AnbefaltTerm"></a>Anbefalt term</h3>
+<h3 id="AnbefaltTerm"><a class="link" href="#AnbefaltTerm">Anbefalt term</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -680,7 +678,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="TillattTerm"><a class="anchor" href="#TillattTerm"></a>Tillatt term</h3>
+<h3 id="TillattTerm"><a class="link" href="#TillattTerm">Tillatt term</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -711,7 +709,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="FrarådetTerm"><a class="anchor" href="#FrarådetTerm"></a>Frarådet term</h3>
+<h3 id="FrarådetTerm"><a class="link" href="#FrarådetTerm">Frarådet term</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -742,7 +740,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="begrep"><a class="anchor" href="#begrep"></a>Begrep</h3>
+<h3 id="begrep"><a class="link" href="#begrep">Begrep</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -773,7 +771,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="definisjon"><a class="anchor" href="#definisjon"></a>Definisjon</h3>
+<h3 id="definisjon"><a class="link" href="#definisjon">Definisjon</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -804,7 +802,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="AlternativFormulering"><a class="anchor" href="#AlternativFormulering"></a>Alternativ formulering</h3>
+<h3 id="AlternativFormulering"><a class="link" href="#AlternativFormulering">Alternativ formulering</a></h3>
 <table class="tableblock frame-all grid-all stripes-odd stretch">
 <colgroup>
 <col style="width: 20%;">
@@ -837,7 +835,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="_krav_til_innhold_i_beskrivelse_av_et_begrep"><a class="anchor" href="#_krav_til_innhold_i_beskrivelse_av_et_begrep"></a>Krav til innhold i beskrivelse av et begrep</h2>
+<h2 id="_krav_til_innhold_i_beskrivelse_av_et_begrep"><a class="link" href="#_krav_til_innhold_i_beskrivelse_av_et_begrep">Krav til innhold i beskrivelse av et begrep</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Dette kapittelet beskriver hva som skal dokumenteres for at en begrepsbeskrivelse skal være i samsvar med standarden. Noe av informasjonen er obligatorisk, resten er valgfri. Blant den valgfrie informasjonen kan en velge å inkludere de delene en finner hensiktsmessig. Når den valgfrie informasjonen inkluderes, skal den følge standarden. Overordnet kan man si at standarden gir mulighet til å:</p>
@@ -868,7 +866,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 <p>Det er utarbeidet en ikke-normativ veileder for bruk av denne standarden. Veilederen inneholder mer utfyllende forklaring og eksempler på bruk av standarden. Se under <a href="https://www.digdir.no/digitalisering-og-samordning/begrepsanalyse-og-definisjonsarbeid/1483">bruksområdet Begrepsanalyse og definisjonsarbeid</a> i <em>Referansekatalogen</em>.</p>
 </div>
 <div class="sect2">
-<h3 id="_obligatorisk_informasjon"><a class="anchor" href="#_obligatorisk_informasjon"></a>Obligatorisk informasjon</h3>
+<h3 id="_obligatorisk_informasjon"><a class="link" href="#_obligatorisk_informasjon">Obligatorisk informasjon</a></h3>
 <div class="paragraph">
 <p>Når et begrep beskrives, skal følgende informasjon alltid tas med:</p>
 </div>
@@ -929,7 +927,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </table>
 </div>
 <div class="sect2">
-<h3 id="_valgfri_informasjon"><a class="anchor" href="#_valgfri_informasjon"></a>Valgfri informasjon</h3>
+<h3 id="_valgfri_informasjon"><a class="link" href="#_valgfri_informasjon">Valgfri informasjon</a></h3>
 <div class="paragraph">
 <p>I tillegg til obligatorisk informasjon som en alltid skal ta med i en begrepsbeskrivelse, kan følgende valgfri informasjon også tas med:</p>
 </div>
@@ -1128,7 +1126,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="kap5"><a class="anchor" href="#kap5"></a>Krav til innhold i beskrivelse av en begrepssamling</h2>
+<h2 id="kap5"><a class="link" href="#kap5">Krav til innhold i beskrivelse av en begrepssamling</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Standarden spesifiserer også hva som skal dokumenteres i beskrivelsen av en samling av begreper (i denne standarden kalt ‘begrepssamling’). Det er valgfritt å gruppere begreper i begrepssamling. Når en velger å bruke begrepssamling skal standardens krav følges.</p>
@@ -1174,7 +1172,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect1">
-<h2 id="vedlegga"><a class="anchor" href="#vedlegga"></a>Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger</h2>
+<h2 id="vedlegga"><a class="link" href="#vedlegga">Vedlegg A (normativt) - UML-modell som beskriver krav til innhold i beskrivelse av begreper og begrepssamlinger</a></h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
@@ -1187,7 +1185,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 <a href="files/StandardForBegrepsbeskrivelse.xsd">xsd</a></p>
 </div>
 <div class="sect2">
-<h3 id="uriA"><a class="anchor" href="#uriA"></a>A.1. Krav til bruk av standardiserte datatyper</h3>
+<h3 id="uriA"><a class="link" href="#uriA">A.1. Krav til bruk av standardiserte datatyper</a></h3>
 <div class="paragraph">
 <p>Det anbefales å bruke standardiserte formater til å representere enkelttypene som er brukt i UML-modellen, i intern lagring og maskinell tilgjengeliggjøring eksternt:</p>
 </div>
@@ -1212,7 +1210,7 @@ Dette dokumentet kan også lastes ned <a href="files/forvaltningsstandard-begrep
 </div>
 </div>
 <div class="sect2">
-<h3 id="begrepA"><a class="anchor" href="#begrepA"></a>A.2. Klasse Begrep (Begrep)</h3>
+<h3 id="begrepA"><a class="link" href="#begrepA">A.2. Klasse Begrep (Begrep)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til et ‘begrep’</p>
 </div>
@@ -1297,7 +1295,7 @@ Inngår i 0..* ‘<a href="#begrepssamlingA">Begrepssamling</a>’ ‘med refera
 </table>
 </div>
 <div class="sect2">
-<h3 id="anbefaltTermA"><a class="anchor" href="#anbefaltTermA"></a>A.3. Klasse Anbefalt term (AnbefaltTerm)</h3>
+<h3 id="anbefaltTermA"><a class="link" href="#anbefaltTermA">A.3. Klasse Anbefalt term (AnbefaltTerm)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi en ‘anbefalt term’ til et ‘begrep’</p>
 </div>
@@ -1308,7 +1306,7 @@ Er spesialisering av ‘<a href="#termA">Term</a>’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="TillattTermA"><a class="anchor" href="#TillattTermA"></a>A.4. Klasse Tillatt term (TillattTerm)</h3>
+<h3 id="TillattTermA"><a class="link" href="#TillattTermA">A.4. Klasse Tillatt term (TillattTerm)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi en ‘tillatt term’ til et ‘begrep’</p>
 </div>
@@ -1343,7 +1341,7 @@ Er spesialisering av ‘<a href="#termA">Term</a>’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="FrarådetTermA"><a class="anchor" href="#FrarådetTermA"></a>A.5. Klasse Frarådet term (FrarådetTerm)</h3>
+<h3 id="FrarådetTermA"><a class="link" href="#FrarådetTermA">A.5. Klasse Frarådet term (FrarådetTerm)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi en ‘frarådet term’ til et ‘begrep’</p>
 </div>
@@ -1354,7 +1352,7 @@ Er spesialisering av ‘<a href="#termA">Term</a>’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="datastrukturtermA"><a class="anchor" href="#datastrukturtermA"></a>A.6. Klasse Datastrukturterm (Datastrukturterm)</h3>
+<h3 id="datastrukturtermA"><a class="link" href="#datastrukturtermA">A.6. Klasse Datastrukturterm (Datastrukturterm)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi en ‘datastrukturterm’ til et ‘begrep’</p>
 </div>
@@ -1365,7 +1363,7 @@ Er spesialisering av ‘<a href="#termA">Term</a>’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="termA"><a class="anchor" href="#termA"></a>A.7. Abstrakt klasse Term (Term)</h3>
+<h3 id="termA"><a class="link" href="#termA">A.7. Abstrakt klasse Term (Term)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributtene til en ‘term’</p>
 </div>
@@ -1408,7 +1406,7 @@ Er generalisering av konkrete klasser ‘<a href="#anbefaltTermA">Anbefalt term<
 </table>
 </div>
 <div class="sect2">
-<h3 id="definisjonA"><a class="anchor" href="#definisjonA"></a>A.8. Klasse Definisjon (Definisjon)</h3>
+<h3 id="definisjonA"><a class="link" href="#definisjonA">A.8. Klasse Definisjon (Definisjon)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi ‘definisjon’ til et ‘begrep’</p>
 </div>
@@ -1419,7 +1417,7 @@ Er spesialisering av ‘<a href="#BetydningsbeskrivelseA">Betydningsbeskrivelse<
 </div>
 </div>
 <div class="sect2">
-<h3 id="AlternativFormuleringA"><a class="anchor" href="#AlternativFormuleringA"></a>A.9. Klasse Alternativ formulering (AlternativFormulering)</h3>
+<h3 id="AlternativFormuleringA"><a class="link" href="#AlternativFormuleringA">A.9. Klasse Alternativ formulering (AlternativFormulering)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å oppgi en ‘alternativ formulering’ av betydningen til et ‘begrep’</p>
 </div>
@@ -1430,7 +1428,7 @@ Er spesialisering av ‘<a href="#BetydningsbeskrivelseA">Betydningsbeskrivelse<
 </div>
 </div>
 <div class="sect2">
-<h3 id="BetydningsbeskrivelseA"><a class="anchor" href="#BetydningsbeskrivelseA"></a>A.10. Abstrakt klasse Betydningsbeskrivelse (Betydningsbeskrivelse)</h3>
+<h3 id="BetydningsbeskrivelseA"><a class="link" href="#BetydningsbeskrivelseA">A.10. Abstrakt klasse Betydningsbeskrivelse (Betydningsbeskrivelse)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Betydningsbeskrivelse’</p>
 </div>
@@ -1503,7 +1501,7 @@ Er generalisering av konkrete klasser ‘<a href="#definisjonA">Definisjon</a>�
 </table>
 </div>
 <div class="sect2">
-<h3 id="AssosiativRelasjonA"><a class="anchor" href="#AssosiativRelasjonA"></a>A.11. Klasse Assosiativ relasjon (AssosiativRelasjon)</h3>
+<h3 id="AssosiativRelasjonA"><a class="link" href="#AssosiativRelasjonA">A.11. Klasse Assosiativ relasjon (AssosiativRelasjon)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Assosiativ relasjon’</p>
 </div>
@@ -1542,7 +1540,7 @@ Er spesialisering av ‘<a href="#begrepsrelasjonA">Begrepsrelasjon</a>’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="GeneriskRelasjonA"><a class="anchor" href="#GeneriskRelasjonA"></a>A.12. Klasse Generisk relasjon (GeneriskRelasjon)</h3>
+<h3 id="GeneriskRelasjonA"><a class="link" href="#GeneriskRelasjonA">A.12. Klasse Generisk relasjon (GeneriskRelasjon)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Generisk relasjon’</p>
 </div>
@@ -1582,7 +1580,7 @@ Er spesialisering av ‘<a href="#begrepsrelasjonA">Begrepsrelasjon</a>’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="PartitivRelasjonA"><a class="anchor" href="#PartitivRelasjonA"></a>A.13. Klasse Partitiv relasjon (PartitivRelasjon)</h3>
+<h3 id="PartitivRelasjonA"><a class="link" href="#PartitivRelasjonA">A.13. Klasse Partitiv relasjon (PartitivRelasjon)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Partitiv relasjon’</p>
 </div>
@@ -1622,7 +1620,7 @@ Er spesialisering av ‘<a href="#begrepsrelasjonA">Begrepsrelasjon</a>’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="begrepsrelasjonA"><a class="anchor" href="#begrepsrelasjonA"></a>A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)</h3>
+<h3 id="begrepsrelasjonA"><a class="link" href="#begrepsrelasjonA">A.14. Abstrakt klasse Begrepsrelasjon (Begrepsrelasjon)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Begrepsrelasjon’</p>
 </div>
@@ -1659,7 +1657,7 @@ Er generalisering av konkrete klasser <a href="#AssosiativRelasjonA">Assosiativ 
 </table>
 </div>
 <div class="sect2">
-<h3 id="begrepssamlingA"><a class="anchor" href="#begrepssamlingA"></a>A.15. Klasse Begrepssamling (Begrepssamling)</h3>
+<h3 id="begrepssamlingA"><a class="link" href="#begrepssamlingA">A.15. Klasse Begrepssamling (Begrepssamling)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter og relasjoner til en ‘Begrepssamling’</p>
 </div>
@@ -1720,7 +1718,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="gyldighetsperiodeA"><a class="anchor" href="#gyldighetsperiodeA"></a>A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)</h3>
+<h3 id="gyldighetsperiodeA"><a class="link" href="#gyldighetsperiodeA">A.16. Datatype Gyldighetsperiode (Gyldighetsperiode)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter til en ‘gyldighetsperiode’</p>
 </div>
@@ -1759,7 +1757,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="kildebeskrivelseA"><a class="anchor" href="#kildebeskrivelseA"></a>A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)</h3>
+<h3 id="kildebeskrivelseA"><a class="link" href="#kildebeskrivelseA">A.17. Datatype Kildebeskrivelse (Kildebeskrivelse)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter til en ‘kildebeskrivelse’</p>
 </div>
@@ -1798,7 +1796,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="datatypeTekstMedSpråkkode"><a class="anchor" href="#datatypeTekstMedSpråkkode"></a>A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)</h3>
+<h3 id="datatypeTekstMedSpråkkode"><a class="link" href="#datatypeTekstMedSpråkkode">A.18. Datatype Tekst med språkkode (TekstMedSpråkkode)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter tekst og språkkode</p>
 </div>
@@ -1837,7 +1835,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="datatypeURITekst"><a class="anchor" href="#datatypeURITekst"></a>A.19. Datatype URI og/eller tekst (URITekst)</h3>
+<h3 id="datatypeURITekst"><a class="link" href="#datatypeURITekst">A.19. Datatype URI og/eller tekst (URITekst)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å knytte sammen attributter URI og Tekst, som brukes av attributt “omfang” i klasse <a href="#BetydningsbeskrivelseA">Betydningsbeskrivelse</a> og attributt "kilde" i datatype <a href="#kildebeskrivelseA">Kildebeskrivelse</a></p>
 </div>
@@ -1876,7 +1874,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </table>
 </div>
 <div class="sect2">
-<h3 id="kodelisteForholdTilKilde"><a class="anchor" href="#kodelisteForholdTilKilde"></a>A.20. Kodeliste Forhold til kilde (ForholdTilKilde)</h3>
+<h3 id="kodelisteForholdTilKilde"><a class="link" href="#kodelisteForholdTilKilde">A.20. Kodeliste Forhold til kilde (ForholdTilKilde)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å liste opp lovlige verdier til <a href="#kildebeskrivelseA">attributt “Forhold til kilde” i datatype “Kildebeskrivelse”</a></p>
 </div>
@@ -1898,7 +1896,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="kodelisteMålgruppe"><a class="anchor" href="#kodelisteMålgruppe"></a>A.21. Kodeliste Målgruppe (Målgruppe)</h3>
+<h3 id="kodelisteMålgruppe"><a class="link" href="#kodelisteMålgruppe">A.21. Kodeliste Målgruppe (Målgruppe)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å liste opp lovlige verdier til <a href="#BetydningsbeskrivelseA">attributt “målgruppe” i klasse “Betydningsbeskrivelse”</a> hhv. <a href="#TillattTermA">attributt “målgruppe” i klasse “Tillatt term”</a>.</p>
 </div>
@@ -1917,7 +1915,7 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="kodelisteSpråkkode"><a class="anchor" href="#kodelisteSpråkkode"></a>A.22. Kodeliste Språkkode (Språkkode)</h3>
+<h3 id="kodelisteSpråkkode"><a class="link" href="#kodelisteSpråkkode">A.22. Kodeliste Språkkode (Språkkode)</a></h3>
 <div class="paragraph">
 <p><strong><em>Formål</em></strong>: for å liste opp lovlige verdier til <a href="#datatypeTekstMedSpråkkode">attributt “språk/målform” i datatype “Tekst med språkkode”</a></p>
 </div>
@@ -1950,10 +1948,10 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="vedleggb"><a class="anchor" href="#vedleggb"></a>Vedlegg B (ikke-normativt) - Endringer fra versjon 1.0 til versjon 2.0.x</h2>
+<h2 id="vedleggb"><a class="link" href="#vedleggb">Vedlegg B (ikke-normativt) - Endringer fra versjon 1.0 til versjon 2.0.x</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_vedlegg_b_1_ikke_normativt_endringer_fra_versjon_1_0_til_versjon_2_0"><a class="anchor" href="#_vedlegg_b_1_ikke_normativt_endringer_fra_versjon_1_0_til_versjon_2_0"></a>Vedlegg B.1 (ikke-normativt) - Endringer fra versjon 1.0 til versjon 2.0</h3>
+<h3 id="_vedlegg_b_1_ikke_normativt_endringer_fra_versjon_1_0_til_versjon_2_0"><a class="link" href="#_vedlegg_b_1_ikke_normativt_endringer_fra_versjon_1_0_til_versjon_2_0">Vedlegg B.1 (ikke-normativt) - Endringer fra versjon 1.0 til versjon 2.0</a></h3>
 <div class="paragraph">
 <p>De viktigste endringene fra versjon 1 til versjon 2.0 av standarden er som følger:</p>
 </div>
@@ -2044,9 +2042,9 @@ Har 1..* <a href="#begrepA">Begrep</a> ‘med referanse (by reference)’</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_vedlegg_b_2_ikke_normativt_endringer_fra_2_0_til_2_0_x"><a class="anchor" href="#_vedlegg_b_2_ikke_normativt_endringer_fra_2_0_til_2_0_x"></a>Vedlegg B.2 (ikke-normativt) - Endringer fra 2.0 til 2.0.x</h3>
+<h3 id="_vedlegg_b_2_ikke_normativt_endringer_fra_2_0_til_2_0_x"><a class="link" href="#_vedlegg_b_2_ikke_normativt_endringer_fra_2_0_til_2_0_x">Vedlegg B.2 (ikke-normativt) - Endringer fra 2.0 til 2.0.x</a></h3>
 <div class="paragraph">
-<p>Det er kun redaksjonelle endringer fra versjon 2.0 til 2.0.x, som ikke beskrives her i vedlegget. Med redaksjonelle endringer menes endringer i formatering/strukturering eller justeringer i tekst/tegninger/tabeller/eksempler som ikke endrer kravene i standarden. <a href="mailto:informasjonsforvaltning@digdir.no?subject=Forvaltningsstandard+for+begrepsbeskrivelser+-+redaksjonelle+endringer">Ta kontakt med Digitaliseringsdirektoratet</a> for mer informasjon om de redaksjonelle endringene.</p>
+<p>Det er kun redaksjonelle endringer fra versjon 2.0 til 2.0.x, som ikke beskrives her i vedlegget. Med redaksjonelle endringer menes endringer i formatering/strukturering eller justeringer i tekst/tegninger/tabeller/eksempler som ikke endrer kravene i standarden. <a href="mailto:informasjonsforvaltning@digdir.no?subject=Forvaltningsstandard%20for%20begrepsbeskrivelser%20-%20redaksjonelle%20endringer">Ta kontakt med Digitaliseringsdirektoratet</a> for mer informasjon om de redaksjonelle endringene.</p>
 </div>
 <!-- Google Analytics -->
 <script>
@@ -2065,7 +2063,7 @@ ga('send', 'pageview');
 </div>
 <div id="footer">
 <div id="footer-text">
-Sist oppdatert 2022-12-09 13:24:54 UTC
+Sist oppdatert 2024-08-08 13:08:24 UTC
 </div>
 </div>
 </body>
